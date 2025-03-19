@@ -3,13 +3,15 @@
 
 This workflow takes a file or files selected in Finder and moves them to a folder which is newly created in the course of the workflow. You are prompted for the location of the new folder and for the name of the new folder.
 
+Note that if you intend most of the time to create new folders in a single, unchanging base folder you can check, in the workflow configuration, `Use a default base folder for all new folders` and then select the default base folder in the folder picker below that. That will save you having to select the base folder on every occasion you wish to move files to a new sub-folder of that default.
+
 # Usage
 
 1. Simply select a file or files in Finder, press your Universal Action hotkey (`⌘ + /` by default) and, if this workflow title does not appear at the top of the list of your Universal Actions, start typing `Move` until you see the name of this workflow.
 
 ![UA](https://github.com/user-attachments/assets/e0265553-4d41-420f-9d7c-3a8e58f97362)
 
-2. Choose the folder in which you wish to create the new folder. Just start typing the name of the folder to see a list of matching folders from which you can select the appropriate one. (See also the important note below about discovery of folders.)
+2. Unless you are using a default base folder (in which case this step will be skipped) choose the folder in which you wish to create the new folder. Just start typing the name of the folder to see a list of matching folders from which you can select the appropriate one. (See also the important note below about discovery of folders.)
 
 ![BaseFolder](https://github.com/user-attachments/assets/dd627143-11a1-49af-bc5f-3a23241e7147)
 
@@ -27,4 +29,4 @@ The new folder will be created and the files moved (not copied) to it—with a n
 
 # Acknowledgement
 
-I am indebted to @sepulchra on the [Alfred forum](https://www.alfredforum.com/) for the provocation to write this workflow but, particularly, for invaluable help and advice developing and testing the workflow. However, if there are errors or infelicities in the final workflow they are mine.
+I am indebted to @sepulchra on the [Alfred forum](https://www.alfredforum.com/) for the provocation to write the original workflow but, particularly, for invaluable help and advice developing and testing that workflow.
